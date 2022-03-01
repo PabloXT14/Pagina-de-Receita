@@ -1,10 +1,15 @@
+import { Footer } from "./components/Footer";
+import { Recipe } from "./components/Recipe";
+import { GlobalStyle } from "./styles/global";
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World 2</h1>
-    </div>
+    <>
+      <GlobalStyle />
+      <Recipe />
+      <Footer />
+    </>
   );
 }
 
