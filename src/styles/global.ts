@@ -3,10 +3,13 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
     :root {
         --purple: #8257E6;
-        --white: #FFFFFF;
+        --white: #FFFFFF;/* background da receita */
+        
+        --black-900: #1B1B1B;/* titulos e subtitulos */
 
-        --black-800: #121214;
-        --gray-600: #7C7C8A;
+        --gray-100: #EAEAEA;
+        --gray-600: #8F8F8F;/* footer e legenda img */
+        --gray-900: #39393A;/* outros */
     }
 
     html {
@@ -22,9 +25,33 @@ export const GlobalStyle = createGlobalStyle`
     * {
         margin: 0;
         padding: 0;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
         box-sizing: border-box;
-        -webkit-font-smooth: antialiased; 
+        -webkit-font-smoothing: antialiased; 
+    }
+
+    body {
+        background: var(--gray-100);
+        color: var(--gray-900);
+
+        h1 {
+            font-size: 1.74rem;
+            color: var(--black-900);
+        }
+
+        h2, h3, h4 {
+            font-size: 1.25rem;
+            color: var(--black-900);
+        }
+
+        ul, ol, p {
+            font-size: 1rem;
+        }
+
+        footer, figcaption {
+            font-size: 0.75rem;
+            color: var(--gray-600);
+        }
     }
 
     body::-webkit-scrollbar {

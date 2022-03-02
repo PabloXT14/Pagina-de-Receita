@@ -1,12 +1,19 @@
 import { Container } from "./style";
 import RecipeImg from '../../assets/images/waffle-recipe-img.jpg';
 
+interface RecipeProps {
+    title: string;
+    ingredients: Array<string>;
+    directions: Array<string>
+    add_info: string;
+}
+
 
 export function Recipe() {
     return (
-        <Container>
-            <h1>Waffle Clássico</h1>
-            <figure>
+        <Container className="recipe-container">
+            <h1 className="recipe-title">🧇 Waffle Clássico</h1>
+            <figure className="recipe-image">
                 <img src={RecipeImg} alt="Imagem de Waffle" />
                 <figcaption>Receita de waffle clássico</figcaption>
             </figure>
