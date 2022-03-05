@@ -1,11 +1,11 @@
 <h1 align="center">Página de Receita</h1>
 
 <p align="center">
- <a href="#demonstration">Demonstration</a> |
- <a href="#deploy">Deploy</a> |
- <a href="#technologies">Technologies</a> |
- <a href="#clipboard-(Pré-requisitos)">Clipboard</a> |
- <a href="#Settings">Settings</a>
+ <a href="📷-Demonstration">Demonstration</a> |
+ <a href="#💻-Deploy">Deploy</a> |
+ <a href="#🚀-Technologies">Technologies</a> |
+ <a href="#📋-Clipboard-(Pré-requisitos)">Clipboard</a> |
+ <a href="#⚙-Settings">Settings</a>
 </p>
 
 ---
@@ -20,7 +20,7 @@ Este é um projeto básico de uma Página de Receita, onde é apresentado como p
 
 ## 📷 Demonstration
 <p align="center">
-    <img alt="Página de Receita Preview" title="Página de Receita Preview" src="./github/Pagina-de-Receita-Preview.png" height="425" />
+    <img alt="Página de Receita Preview" title="Página de Receita Preview" src="./github/Pagina-de-Receita-Preview.png" />
 </p>
 
 
