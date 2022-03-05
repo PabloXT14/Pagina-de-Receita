@@ -1,7 +1,7 @@
 <h1 align="center">Página de Receita</h1>
 
 <p align="center">
- <a href="-demonstration">Demonstration</a> |
+ <a href="#-demonstration">Demonstration</a> |
  <a href="#-deploy">Deploy</a> |
  <a href="#-technologies">Technologies</a> |
  <a href="#-clipboard-(pré-requisitos)">Clipboard</a> |
