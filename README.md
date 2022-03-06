@@ -4,7 +4,7 @@
  <a href="#-demonstration">Demonstration</a> |
  <a href="#-deploy">Deploy</a> |
  <a href="#-technologies">Technologies</a> |
- <a href="#-clipboard-(pré-requisitos)">Clipboard</a> |
+ <a href="#-clipboard-pré-requisitos">Clipboard</a> |
  <a href="#-settings">Settings</a>
 </p>
 
